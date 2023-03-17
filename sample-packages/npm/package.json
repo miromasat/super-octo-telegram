@@ -1,8 +1,8 @@
 {
-  "name": "super-octo-telegram",
+  "name": "miromasat/super-octo-telegram",
     "repository": { 
     "type": "git", 
-    "url": "https://github.com/bnb/metaverse.git" 
+    "url": "https://github.com/miromasat/super-octo-telegram" 
   },
   "version": "1.0.0",
   "main": "index.js",

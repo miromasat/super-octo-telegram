@@ -4,13 +4,13 @@
     "type": "git", 
     "url": "https://github.com/miromasat/super-octo-telegram" 
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Success: all tests passed\" && exit 0"
   },
   "publishConfig": {
-    "@MIROMASAT:registry": "https://npm.pkg.github.com"
+    "@miromasat:registry": "https://npm.pkg.github.com"
   },
   "author": "",
   "license": "ISC",

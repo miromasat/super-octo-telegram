@@ -15,9 +15,9 @@ jobs:
         with:
           node-version: 16
       - run: npm ci
-        working-directory: ./app    
+        working-directory: ./sample-packages/npm    
       - run: npm test
-        working-directory: ./app    
+        working-directory: ./sample-packages/npm       
 
   publish-npm:
     needs: build
@@ -29,8 +29,8 @@ jobs:
           node-version: 16
           registry-url: https://registry.npmjs.org/
       - run: npm ci
-        working-directory: ./app    
+        working-directory: ./sample-packages/npm    
       - run: npm publish
-        working-directory: ./app    
+        working-directory: ./sample-packages/npm     
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}

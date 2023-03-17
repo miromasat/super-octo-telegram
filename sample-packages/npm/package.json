@@ -1,6 +1,5 @@
 {
-  "your": "json config here",
-  "name": "npm",
+  "name": "random-mm-package-03172023",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {

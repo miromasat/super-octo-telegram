@@ -10,7 +10,7 @@
     "test": "echo \"Success: all tests passed\" && exit 0"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
+    "@MIROMASAT:registry": "https://npm.pkg.github.com"
   },
   "author": "",
   "license": "ISC",

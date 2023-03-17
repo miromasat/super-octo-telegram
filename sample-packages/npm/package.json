@@ -1,9 +1,16 @@
 {
-  "name": "random-mm-package-03172023",
+  "name": "super-octo-telegram",
+    "repository": { 
+    "type": "git", 
+    "url": "https://github.com/bnb/metaverse.git" 
+  },
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Success: all tests passed\" && exit 0"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "author": "",
   "license": "ISC",
